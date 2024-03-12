@@ -198,11 +198,11 @@ if 1 == 1 :
 
         st.markdown("#### Tableau global des résultats")
         # Insertion du dataframe résultats
-        # result3 = pd.read_csv("result_model4.csv", index_col = 1)
+        result4 = pd.read_csv("result_model4.csv", index_col = 1)
 
-        # result3.drop(columns=result3.columns[0], axis=1, inplace=True)
+        result4.drop(columns=result4.columns[0], axis=1, inplace=True)
 
-        # st.dataframe(result4)
+        st.dataframe(result4)
 
         st.markdown("""
                     #### Interprétation
