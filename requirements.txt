@@ -5,5 +5,5 @@ matplotlib.pyplot
 seaborn
 sklearn.model_selection
 sklearn.preprocessing
-sklearn.svm import SVR
+sklearn.svm
 pickle
