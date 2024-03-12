@@ -127,7 +127,7 @@ if "1" == "1" :
     # Prévoir la classe avec le modèle
     modele = charger_modele()
     prediction_MLville = modele.predict(caracteristiques)
-    st.write('##### Prédiction avec modèle de ML le plus performant (mais caractéristiques de la ville)')
+    st.write('##### Prédiction avec modèle de ML le plus performant sur les caractéristiques de la ville (2)')
     st.write("Le salaire est",round(prediction_MLville[0],2),"€/h soit environ",round((prediction_MLville[0]*4.5*35),2),"€/mois")
     st.slider('', min_value=6.0, max_value=60.0, value=prediction_MLville[0], step=1.0)
 
@@ -176,7 +176,7 @@ if "1" == "1" :
     # Prévoir la classe avec le modèle
     modele = charger_modele()
     prediction_MLind = modele.predict(caracteristiques)
-    st.write('##### Prédiction avec modèle de ML caractéristiques de la personne')
+    st.write('##### Prédiction avec modèle de ML caractéristiques de la personne (4)')
     st.write("Le salaire est",round(prediction_MLind[0],2),"€/h soit environ",round((prediction_MLind[0]*4.5*35),2),"€/mois")
     st.slider('', min_value=6.0, max_value=60.0, value=prediction_MLind[0], step=1.0)
 
