@@ -1,7 +1,7 @@
 streamlit
 pandas
 numpy
-matplotlib.pyplot
+matplotlib==3.5.2
 seaborn
 sklearn.model_selection
 sklearn.preprocessing
