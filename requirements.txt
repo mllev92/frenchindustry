@@ -3,5 +3,5 @@ pandas
 numpy
 matplotlib==3.5.2
 seaborn
-sklearn
+scikit-learn
 pickle
