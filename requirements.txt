@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+matplotlib.pyplot
+seaborn
+sklearn.model_selection
+sklearn.preprocessing
+sklearn.svm import SVR
+pickle
