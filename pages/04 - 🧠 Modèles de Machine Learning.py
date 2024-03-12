@@ -12,7 +12,7 @@ import statsmodels.api
 dfent = pd.read_csv("base_etablissement_par_tranche_effectif.csv")
 dfgeo = pd.read_csv ("name_geographic_information.csv")
 dfsal = pd.read_csv("net_salary_per_town_categories.csv")
-dfpop = pd.read_csv("population.csv",low_memory=False)
+#dfpop = pd.read_csv("population.csv",low_memory=False)
 
 df1 = pd.read_csv("df_ratio.csv", index_col="CODGEO")
 df2 = pd.read_csv("df_full_cadre_tertiaire.csv", index_col="CODGEO")
