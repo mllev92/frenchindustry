@@ -22,8 +22,8 @@ df4 = pd.read_csv("df_cat_poste.csv", index_col="CODGEO")
 if 1 == 1 :
     st.title("💶 French Industry 💶")
     
-    st.markdown("# 🧠 Pré-processing et Modèles de Machine Learning")
-    st.sidebar.markdown("# 🧠 Pré-processing et Modèles de Machine Learning")
+    st.markdown("# ⚙️ Pré-processing et 🧠 Modèles de Machine Learning")
+    st.sidebar.markdown("# ⚙️ Pré-processing et 🧠 Modèles de Machine Learning")
 
     
     st.subheader("Objectif")
