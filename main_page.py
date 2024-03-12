@@ -9,4 +9,4 @@ from sklearn.svm import SVR
 import pickle
 
 st.markdown("# 👋 Bienvenue")
-st.sidebar.markdown("# 01 - 👋 Bienvenu")
+st.sidebar.markdown("# 01 - 👋 Bienvenue")
