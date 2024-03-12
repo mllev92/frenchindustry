@@ -9,3 +9,4 @@ imageio==2.31.1
 cloudpickle==2.2.1
 pickleshare==0.7.5
 requests==2.31.0
+statsmodels==0.13.1
