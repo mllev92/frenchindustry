@@ -1,7 +1,11 @@
-streamlit
-pandas
-numpy
-matplotlib==3.5.2
-seaborn
+streamlit==1.29.0
+pandas==2.0.3
+numpy==1.24.3
+scipy==1.11.1
+plotly==5.9.0
+seaborn==0.12.2
 scikit-learn
-pickle
+imageio==2.31.1
+cloudpickle==2.2.1
+pickleshare==0.7.5
+requests==2.31.0
