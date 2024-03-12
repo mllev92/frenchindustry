@@ -3,7 +3,5 @@ pandas
 numpy
 matplotlib==3.5.2
 seaborn
-sklearn.model_selection
-sklearn.preprocessing
-sklearn.svm
+sklearn
 pickle
