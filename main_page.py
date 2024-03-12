@@ -8,5 +8,5 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVR
 import pickle
 
-st.markdown("# 👋 Introduction")
-st.sidebar.markdown("# 01 - 👋 Introduction")
+st.markdown("# 👋 Bienvenue")
+st.sidebar.markdown("# 01 - 👋 Bienvenu")
