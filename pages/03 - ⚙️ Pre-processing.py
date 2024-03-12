@@ -31,7 +31,7 @@ st.sidebar.markdown(
         - Yannick LIN""")
 
 # Page d'exploration des données
-if 1 == 1 
+if 1 == 1 :
     st.header("🔍 Exploration des Données")
     st.markdown(""" """ """<style>h1 {color: #4629dd;  font-size: 70px;/* Changez la couleur du titre h1 ici */} h2 {color: #440154ff;    font-size: 50px /* Changez la couleur du titre h2 ici */} h3{color: #27dce0; font-size: 30px; /* Changez la couleur du titre h3 ici */}</style>""",unsafe_allow_html=True)
     st.markdown(""" """ """<style>body {background-color: #f4f4f4;</style>""",unsafe_allow_html=True)
